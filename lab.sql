@@ -25,3 +25,9 @@ create table occasion (
 	occasions varchar(50) not null,
 	recipes_id int not null unique REFERENCES recipes(id)
 );
+
+
+
+
+insert into recipes(ingredients,instructions,private)values
+('cheese-meat-bread-bacon-lettuce', 'cook on the grill until super yummy lol', true, 1)
